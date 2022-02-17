@@ -37,10 +37,10 @@ public class PuntoImpl implements Punto {
 		
 	}
 	// Consultores
-	public Double getx() {
+	public Double getX() {
 		return x;	
 	}
-	public Double gety() {
+	public Double getY() {
 		return y;
 	}
 	
@@ -54,7 +54,7 @@ public class PuntoImpl implements Punto {
 		
 	}
 	public void setY(Double nuevaY) {
-		Y= nuevaY;
+		y= nuevaY;
 		
 	//Resto de operaciones
 	}
@@ -69,5 +69,4 @@ public class PuntoImpl implements Punto {
 	public String toString( ) {
 		return "(" + this.getX() + "," + this.getY()+ ")";
 	}
-
 }
