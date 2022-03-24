@@ -36,6 +36,11 @@ public class PuntoImpl implements Punto {
 		   y= 0.0;
 		
 	}
+	public PuntoImpl(String s) {
+		// TODO Auto-generated constructor stub
+	}
+
+
 	// Consultores
 	public Double getX() {
 		return x;	
